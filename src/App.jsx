@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import ContactModal from './components/ContactModal';
 import ResumePage from './components/ResumePage';
 import Projects from './components/Projects';
+import { Analytics } from "@vercel/analytics/next"
 import './App.css';
 
 function App() {
@@ -62,5 +63,5 @@ function App() {
     </div>
   );
 }
-
+<Analytics />
 export default App;
