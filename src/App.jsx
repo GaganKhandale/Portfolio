@@ -7,7 +7,8 @@ import Footer from './components/Footer';
 import ContactModal from './components/ContactModal';
 import ResumePage from './components/ResumePage';
 import Projects from './components/Projects';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import './App.css';
 
 function App() {
@@ -60,8 +61,10 @@ function App() {
         </>
       )}
       <ContactModal isOpen={isContactModalOpen} onClose={() => setIsContactModalOpen(false)} />
+      <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
-<Analytics />
+
 export default App;
