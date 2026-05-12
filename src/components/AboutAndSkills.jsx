@@ -18,7 +18,7 @@ export default function AboutAndSkills() {
             <div style={styles.serviceItem}>
               <div style={styles.dot} />
               <Smartphone size={32} color="var(--text-primary)" strokeWidth={1.5} />
-              <span style={styles.serviceText}>App Development</span>
+              <span style={styles.serviceText}>Frontend Development</span>
             </div>
 
             <div style={styles.serviceItem}>
@@ -32,22 +32,21 @@ export default function AboutAndSkills() {
           <div style={styles.rightColumn}>
             <h2 style={styles.aboutHeading}>About me</h2>
             <p style={styles.aboutDescription}>
-              I started my software journey from photography. Through that, I learned to
-              love the process of creating from scratch. Since then, this has led me to
-              software development as it fulfills my love for learning and building things.
+              I love exploring new technologies, improving user experiences, and building projects that solve meaningful problems. Whether it’s developing intelligent systems, crafting smooth interfaces, or optimizing performance,
+              I’m always focused on creating products that people genuinely enjoy using.
             </p>
 
             <div style={styles.statsRow}>
               <div style={styles.statBlock}>
-                <div style={styles.statNumber}>120 <span style={styles.statPlus}>+</span></div>
+                <div style={styles.statNumber}>15 <span style={styles.statPlus}>+</span></div>
                 <div style={styles.statLabel}>Completed<br />Projects</div>
               </div>
               <div style={styles.statBlock}>
-                <div style={styles.statNumber}>95 <span style={styles.statPlus}>%</span></div>
+                <div style={styles.statNumber}>90<span style={styles.statPlus}>%</span></div>
                 <div style={styles.statLabel}>Client<br />satisfaction</div>
               </div>
               <div style={styles.statBlock}>
-                <div style={styles.statNumber}>10 <span style={styles.statPlus}>+</span></div>
+                <div style={styles.statNumber}>2<span style={styles.statPlus}>+</span></div>
                 <div style={styles.statLabel}>Years of<br />experience</div>
               </div>
             </div>
@@ -170,8 +169,8 @@ const styles = {
   aboutDescription: {
     color: 'var(--text-secondary)',
     fontSize: '1.05rem',
-    lineHeight: '1.8',
-    marginBottom: '3.5rem',
+    lineHeight: '1.5',
+    marginBottom: '1.5rem',
   },
   statsRow: {
     display: 'flex',

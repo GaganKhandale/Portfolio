@@ -6,7 +6,7 @@ export default function Hero({ onContactClick }) {
         <h1 style={styles.title}>Gagan Khandale.</h1>
         <h2 style={styles.subtitle}>I build things for the web.</h2>
         <p style={styles.description}>
-          I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products at Upstatement.
+          I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Building modern, user-focused web applications with clean design and efficient engineering.
         </p>
 
         <div style={styles.buttons}>

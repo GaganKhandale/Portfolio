@@ -84,7 +84,7 @@ const projectsData = [
     category: 'UI/UX',
     gradient: 'linear-gradient(135deg, #0f172a, #78350f)',
     description: 'My Personal Portfolio Website, where I showcase my projects, skills, and other details.',
-    githubLink: 'https://github.com',
+    githubLink: 'https://github.com/GaganKhandale/Portfolio',
     techStack: [
       { name: 'Next.js', icon: <NextIcon /> },
       { name: 'Tailwind CSS', icon: <TailwindIcon /> },
