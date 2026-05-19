@@ -34,7 +34,7 @@ export default function Navbar() {
           </a>
         </div>
 
-        <ul style={styles.links}>
+        <ul className="nav-links">
           <li><a href="#home" style={{ ...styles.activeLink, color: 'var(--text-primary)' }}>Home</a></li>
           <li><a href="#about" style={{ ...styles.link, color: 'var(--text-primary)' }}>About</a></li>
           <li><a href="#portfolio" style={{ ...styles.link, color: 'var(--text-primary)' }}>Projects</a></li>
@@ -73,12 +73,7 @@ const styles = {
     fontSize: '1.1rem',
     transition: 'color 0.6s',
   },
-  links: {
-    display: 'flex',
-    gap: '2.5rem',
-    fontSize: '0.95rem',
-    fontWeight: '500',
-  },
+
   link: {
     transition: 'color 0.6s',
   },

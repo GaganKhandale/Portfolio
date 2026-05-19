@@ -54,6 +54,27 @@ button {
   padding: 0 2rem;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+/* Navbar */
+.nav-links {
+  display: flex;
+  gap: 2.5rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 1rem;
+    font-size: 0.8rem;
+  }
+}
+
 /* Utilities */
 .btn-primary {
   background-color: transparent;
