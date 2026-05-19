@@ -69,8 +69,23 @@ button {
 }
 
 @media (max-width: 768px) {
+  .nav-container {
+    flex-wrap: wrap;
+  }
+  .nav-logo {
+    order: 1;
+  }
+  .nav-actions {
+    order: 2;
+  }
   .nav-links {
-    display: none;
+    order: 3;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
   }
 }
 

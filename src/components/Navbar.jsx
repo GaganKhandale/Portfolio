@@ -24,8 +24,8 @@ export default function Navbar() {
 
   return (
     <nav style={{ ...styles.nav, backgroundColor: navBg, borderBottomColor: navBorder, boxShadow: navShadow, backdropFilter: scrollRatio > 0 ? 'blur(10px)' : 'none' }}>
-      <div className="container" style={styles.container}>
-        <div style={styles.logoGroup}>
+      <div className="container nav-container" style={styles.container}>
+        <div className="nav-logo" style={styles.logoGroup}>
           <a href="#home" style={{ display: 'flex', alignItems: 'center' }}>
             <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ transition: 'all 0.3s ease', cursor: 'pointer' }}>
               <polygon points="50,5 90,28 90,72 50,95 10,72 10,28" stroke="var(--primary-color)" strokeWidth="6" strokeLinejoin="round" />
@@ -40,7 +40,7 @@ export default function Navbar() {
           <li><a href="#portfolio" style={{ ...styles.link, color: 'var(--text-primary)' }}>Projects</a></li>
         </ul>
 
-        <div style={styles.actions}>
+        <div className="nav-actions" style={styles.actions}>
           <a href="#resume" className="btn-outline" style={{ textDecoration: 'none', display: 'inline-block' }}>
             Resume
           </a>
